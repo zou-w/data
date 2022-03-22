@@ -1,9 +1,6 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "/api/*": "/$1",
+  "/:resource/:id/show": "/:resource/:id",
+  "/login/:username": "/posts?username=:username",
+  "/articles\\?id=:id": "/posts/:id"
 }
