@@ -1,9 +1,9 @@
 {
-   “登录”：[
-    { “id”：1，“title”：“ json-server ”，“author”：“ typicode ”  }
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
   ],
-  “评论”：[
-    { “id”：1，“body”：“一些评论”，“postId”：1 }
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  “个人资料”：{ “名称”：“打字码”  }
+  "profile": { "name": "typicode" }
 }
